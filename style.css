@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg,red,black);
+    font-family: cursive;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+.main-container{
+    
+    width:33vw ;
+    height: 33vh;
+    background-color:lemonchiffon
+    ;
+    margin-top: 35vh;
+   
+    
+}
+.content{
+   margin-left: .5rem;
+    line-height: 2.5rem;
+}
+.content h3{
+    color: deeppink;
+}
+
+.score{
+    display: flex;
+    gap: 9rem;
+    margin-left: .5rem;
+    line-height: 1.5rem;
+}
+#text-area{
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    padding: 10px;
+    color: crimson;
+}
+#total-counter{
+    color: darkblue;
+}
+#Remaining-counter{
+    color: red;
+}
+.main-container {
+    animation: main-container 5s linear 2s infinite alternate;
+  }
